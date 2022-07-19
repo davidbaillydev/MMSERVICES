@@ -792,11 +792,11 @@
                 </div> -->
                 <div class="container footer-menu">
                     <div class="f-menu">
-                        <a href="">Conditions d'utilisation</a>
-                        <a href="">Politique de confidentialité</a>
-                        <a href="">Cookies</a>
-                        <a href="">Aides & FAQs</a>
-                        <a href="">Contact </a>
+                        <a href="privacy.html">Conditions d'utilisation</a>
+                        <a href="privacy.html">Politique de confidentialité</a>
+                        <a href="privacy.html">Cookies</a>
+                        <a href="contact.html">Aides & FAQs</a>
+                        <a href="contact.html">Contact </a>
                     </div>
                 </div>
                 <div class="container copyright">
@@ -805,7 +805,7 @@
                             <p>&copy;  2022 <a href="https://htmlcodex.com">MM SERVICES</a>, Tous droits réservés.</p>
                         </div>
                         <div class="col-md-6">
-                            <p>Propulsez par  <a href="https://htmlcodex.com">LC DIGITALE AGENCY</a></p>
+                            <p>Propulsez par  <a href="https://lcdigitale.fr">LC DIGITALE AGENCY</a></p>
                         </div>
                     </div>
                 </div>
@@ -825,5 +825,55 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+
+
+
+
+
+        <!-- Messenger Plugin de discussion Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin de discussion code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "101094789222797");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v14.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+
+
+
+<!-- Cookie Consent by https://www.FreePrivacyPolicy.com -->
+<script type="text/javascript" src="//www.freeprivacypolicy.com/public/cookie-consent/4.0.0/cookie-consent.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({"notice_banner_type":"interstitial","consent_type":"express","palette":"light","language":"fr","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false,"website_privacy_policy_url":"https://www.mmservices31.fr/privacy.html"});
+});
+</script>
+
+<noscript>Cookie Consent by <a href="https://www.freeprivacypolicy.com/" rel="noopener">Free Privacy Policy Generator website</a></noscript>
+<!-- End Cookie Consent -->
     </body>
 </html>
