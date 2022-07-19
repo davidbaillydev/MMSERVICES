@@ -226,17 +226,18 @@
 
                         <div class="col-md-6">
                             <div class="contact-form">
-                                <form>
+                                <form action="https://formsubmit.co/david.bailly8@gmail.com" method="POST">
                                     <div class="form-row">
                                         <div class="form-group col-md-6">
-                                            <input type="text" class="form-control" placeholder="Nom" required="required" />
+                                            <input type="text" name="name" class="form-control" placeholder="Nom" required="required" />
                                         </div>
                                         <div class="form-group col-md-6">
-                                            <input type="email" class="form-control" placeholder="Email" required="required" />
+                                            <input type="email" name="email"  class="form-control" placeholder="Email" required="required" />
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Sujet" required="required" />
+                                        <input type="hidden" name="_subject" value="Nouveau message!"/>
+                                        <input type="text" name="_subject" class="form-control" placeholder="Sujet" required="required" />
                                     </div>
                                     <div class="form-group">
                                         <textarea class="form-control" rows="6" placeholder="Message" required="required" ></textarea>

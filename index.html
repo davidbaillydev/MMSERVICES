@@ -137,12 +137,14 @@
                                 <form action="https://formsubmit.co/david.bailly8@gmail.com" method="POST" >
                                     <input class="form-control" type="text" placeholder="Nom" name="name" >
                                     <input type="email" class="form-control" placeholder="Email" name="Email"  >
+                                    
                                     <div class="control-group">
-                                        <select class="custom-select" type="text" class="form-control"  name="_subject" >
+                                        <input type="hidden" name="_subject" value="Nouveau message!"/>
+                                        <select name="_subject" class="custom-select" type="text" class="form-control"  >
                                             <option selected>Sélectionner un service</option>
-                                            <option value="1">travaux de bricolages </option>
-                                            <option value="2">travaux de jardinages </option>
-                                            <option value="3">Gardiennage et vigilance</option>
+                                            <option value="travaux de bricolages" >travaux de bricolages </option>
+                                            <option  value="travaux de jardinages" >travaux de jardinages </option>
+                                            <option  value="Gardiennage et vigilance" >Gardiennage et vigilance</option>
                                         </select>
                                     </div>
                                     <textarea class="form-control" placeholder="message"  name="message" required></textarea>
@@ -600,8 +602,13 @@
                         </div>
                         <div class="col-md-4">
                             <div class="form">
-                                <input class="form-control" placeholder="Téléphone">
-                                <button class="btn">Envoyer</button>
+
+                                <form action="https://formsubmit.co/david.bailly8@gmail.com" method="POST">
+                                    <input type="hidden" name="_subject" value="Nouveau message!"/>
+                                    <input type="text" class="form-control" placeholder="Téléphone" value="Téléphone">
+                                    <button type="submit" class="btn">Envoyer</button>
+                                </form>
+                               
                             </div>
                         </div>
                     </div>
