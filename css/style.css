@@ -83,7 +83,9 @@ a:focus {
 .header.home {
     margin-bottom: 45px;
     /* background: linear-gradient(rgba(0, 83, 156, 1), rgba(0, 83, 156, .9), rgba(0, 83, 156, 1)), url(../img/header-2.jpg); */
-    background: linear-gradient(rgba(255, 255, 255, 0.593), rgb(255, 255, 255), rgb(255, 255, 255)), url(../img/home.png);
+    /* background: linear-gradient(rgba(255, 255, 255, 0.593), rgb(255, 255, 255), rgb(255, 255, 255)), url(../img/home.png); */
+    background: linear-gradient(rgba(255, 255, 255, 0.593), rgba(255, 255, 255, 0.772), rgba(255, 255, 255, 0.794)), url(../img/home.png);
+
 
     background-position: center;
     background-repeat: no-repeat;
