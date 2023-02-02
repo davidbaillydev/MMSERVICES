@@ -323,11 +323,11 @@ THE SOFTWARE.
 }
 
 .bg-rhino {
-  background-color: #4e3d28e2 !important;
-  /* background-image: url("/img/pub-accueil.jpg") ;
+  /* background-color: #4e3d28e2 !important; */
+  background-image: url('/img/pub-accueil.jpg') ;
   background-position: center;
   background-size: contain;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
  
 }
 
